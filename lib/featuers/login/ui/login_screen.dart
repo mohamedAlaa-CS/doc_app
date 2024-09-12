@@ -3,7 +3,7 @@ import 'package:doc_app/core/theming/styles.dart';
 import 'package:doc_app/core/widgets/app_text_button.dart';
 import 'package:doc_app/featuers/login/data/models/login_request_body.dart';
 import 'package:doc_app/featuers/login/logic/cubit/login_cubit.dart';
-import 'package:doc_app/featuers/login/ui/widgets/aready_have_account_text.dart';
+import 'package:doc_app/featuers/login/ui/widgets/donot_have_account_text.dart';
 import 'package:doc_app/featuers/login/ui/widgets/email_and_password.dart';
 import 'package:doc_app/featuers/login/ui/widgets/login_bloc_listener.dart';
 import 'package:doc_app/featuers/login/ui/widgets/terms_and_condition_text.dart';
@@ -60,7 +60,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     verticalSpace(16),
                     const TermsAndConditionsText(),
                     verticalSpace(60),
-                    const AlreadyHaveAccountText(),
+                    const DonotHaveAccountText(),
                     const LoginBlocListener(),
                   ],
                 )
